@@ -26,6 +26,7 @@ with some examples shown in the table below.
 | Spanish (Mexico)       | es                   | com.mx                    |
 | Spanish (Spain)        | es                   | es                        |
 | Spanish (US)           | es                   | com                       |
+| Italy                  | it                   |                           y|
 ----------------------------------------------------------------------------
 """
 
@@ -36,15 +37,15 @@ file = open("translate_text.txt", "r")
 text = file.read().replace("\n", "")
 
 # Set a language for the voice assistance to be read in
-language = "en"
+language = "it"
 
 # Set a top level domain to know which country accent you want
-top_level_domain = "co.uk"
+# top_level_domain = "co.uk"
 
 # Initiate the Class, and passed arguments
 output = gTTS(
     text=text, lang=language,
-    tld=top_level_domain
+    # tld=top_level_domain
 )
 
 # Save the conversion to a mp3 file
