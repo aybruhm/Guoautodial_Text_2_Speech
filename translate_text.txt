@@ -1,0 +1,1 @@
+GOautodial is the next generation open source omni-channel contact center suite. Built from the ground up using established open source technologies.
